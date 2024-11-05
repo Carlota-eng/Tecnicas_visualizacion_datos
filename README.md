@@ -12,7 +12,7 @@ Las técnicas de visualización que se trabajan en este proyecto son las siguien
 ## Visualizaciones
 A continuación, se muestran las visualizaciones resultantes de cada técnica. Para cada una de ellas, se adjunta en la carpeta _/code_ el código necesario para su ejecución y en la carpeta _/images_ la imagen en formato .png de la representación:
 ###### Word Cloud
-Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_Wines Reviews_](https://www.kaggle.com/datasets/zynicide/wine-reviews) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar para la realización del _word cloud_:
+Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_Wines Reviews_](https://www.kaggle.com/datasets/zynicide/wine-reviews) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar y librearías a cargar para la realización del _word cloud_:
 
 ```
 # Download pack
@@ -20,6 +20,7 @@ if (!require("wordcloud")) install.packages("wordcloud")
 if (!require("RColorBrewer")) install.packages("RColorBrewer")
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("lchiffon/wordcloud2")
+
 library(wordcloud)
 library(RColorBrewer)
 library(openxlsx)
