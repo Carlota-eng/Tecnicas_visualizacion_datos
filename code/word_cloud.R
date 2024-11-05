@@ -6,6 +6,11 @@ library(wordcloud)
 library(RColorBrewer)
 library(openxlsx)
 
+install.packages("devtools")
+devtools::install_github("lchiffon/wordcloud2")
+library(wordcloud2)
+library(tm)
+
 df <- read.xlsx("C:/Utilidades Carlota/MDS/Visualizacion de datos/PEC2/df_wine.xlsx",
                 sheet=1)
 
@@ -42,15 +47,21 @@ words <- data.frame("palabras"=words,"largo"=nchar(words)) #lo dejo en data.fram
 words <- words[words$largo>2, ] # me cargo las palabras de un solo 2 o menos carac...
 filtro <-  words$palabras%in%stops$V1
 words <- words[!filtro, ]
+words_nowine <- words[words != "wine", ]
 
-tabla_frec <- table(words$palabras)
+tabla_frec <- table(words_nowine$palabras)
 tabla_frec <- data.frame(tabla_frec)
 tabla_frec <- tabla_frec [ order(tabla_frec$Freq, decreasing = T), ]
 
 # Word Cloud / Tag Cloud
-main_words <- head(tabla_frec,500)
+# Opción 1
+main_words <- head(tabla_frec,900)
 set.seed(4321)
 wordcloud(words = main_words$Var1, freq = main_words$Freq, scale = c(3,0.5), min.freq = 1,
           max.words=1000, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"),
           family="sans")
+
+# Opción 2
+words_table <- table(words_nowine$palabras)
+wordcloud2(data=words_table, size = 0.7, color = 'random-light',backgroundColor = 'Black')
