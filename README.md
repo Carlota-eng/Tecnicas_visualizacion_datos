@@ -42,5 +42,15 @@ O, las palabras más mencionadas por sudafricanos:
 En la carpeta de imagenes de este repositorio se incorporan _word clouds_ para diferentes paises como: US, Chile, Sud Africa y Italia.
 
 ###### Correlation Matrix
-La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si.
+La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si. A continuación, se detallan los paquetes necesarios a instalar y librearias a cargar para la realización de la _correlation matrix_:
+
+```
+#Install corrplot
+if (!require("corrplot")) install.packages("corrplot")
+if (!require("rmcorr")) install.packages("rmcorr")
+
+library(corrplot)
+library(rmcorr)
+```
+
 
