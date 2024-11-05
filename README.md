@@ -1,4 +1,4 @@
-# Visualizacion-datos
+# PEC 2: Visualización de datos
 Este proyecto forma parte de la asignatura de _Visualización de datos_ de la _Universitat Oberta de Catalunya_ (UOC), concretamente de la PEC2. A lo largo del proyecto, se exploran diferentes técnicas de visualización para representar datos de manera efectiva y facilitar su interpretación. Cada técnica seleccionada permite analizar un conjunto de datos específico, destacando patrones y características relevantes.
 #### Objetivo
 El objetivo de este proyecto es aplicar y comparar tres técnicas de visualización de datos diferentes, comprendiendo mejor la aplicación y el impacto visual de cada una. Para lograrlo, se han utilizado tres conjuntos de datos distintos, seleccionados específicamente para aprovechar cada técnica visual. Todo el trabajo se ha realizado en RStudio, una herramienta de programación estadística que permite gestionar datos y generar visualizaciones de alta calidad.
