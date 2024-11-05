@@ -15,6 +15,16 @@ Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_Wines R
 
 ![image](https://github.com/user-attachments/assets/a3257920-ba51-4b27-b761-56d545260362)
 
+De igual forma, se podría construir la misma visualización pero diferenciando las reseñas por países. Por ejemplo estas serían las palabras más nombradas enl as reseñas hechas por estado unidenses:
+
+![image](https://github.com/user-attachments/assets/120da111-0d7d-468a-9c68-0091d821242e)
+
+O, las palabras más mencionadas por sudafricanos:
+
+![image](https://github.com/user-attachments/assets/b129b0e5-ef47-47ea-b74d-7e38c4a07e32)
+
+En la carpeta de imagenes de este repositorio se incorporan _word clouds_ para diferentes paises como: US, Chile, Sud Africa y Italia.
+
 ###### Correlation Matrix
 La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si.
 
