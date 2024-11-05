@@ -10,4 +10,6 @@ Las técnicas de visualización que se trabajan en este proyecto son las siguien
 - _Violin plot_: Combina características de un _box plot_ y un _kde plot_ para mostrar la distribución de datos y su densidad. Permite observar la variabilidad y forma de las distribuciones, lo cual es útil para comparaciones entre múltiples grupos o categorías.
 ## Visualizaciones
 A continuación, se muestran las visualizaciones resultantes de cada técnica:
+###### Word Cloud
+Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_Wines Reviews_](https://www.kaggle.com/datasets/zynicide/wine-reviews) disponible en _Kaggle__.
 ![image](https://github.com/user-attachments/assets/a3257920-ba51-4b27-b761-56d545260362)
