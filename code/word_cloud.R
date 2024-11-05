@@ -63,5 +63,4 @@ wordcloud(words = main_words$Var1, freq = main_words$Freq, scale = c(3,0.5), min
           family="sans")
 
 # Opción 2
-words_table <- table(words_nowine$palabras)
 wordcloud2(data=words_table, size = 0.7, color = 'random-light',backgroundColor = 'Black')
