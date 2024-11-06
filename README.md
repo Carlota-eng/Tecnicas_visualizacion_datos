@@ -29,23 +29,10 @@ library(wordcloud2)
 
 El objetivo de esta representación es mostrar las palabras más mencionadas a nivel mundial a la hora de hablar sobre vinos o hacer una reseña sobre ellos.
 
-![image](https://github.com/user-attachments/assets/a3257920-ba51-4b27-b761-56d545260362)
 
-De igual forma, se podría construir la misma visualización pero diferenciando las reseñas por países. Por ejemplo estas serían las palabras más nombradas enl as reseñas hechas por estado unidenses:
-
-![image](https://github.com/user-attachments/assets/120da111-0d7d-468a-9c68-0091d821242e)
-
-O, las palabras más mencionadas por sudafricanos:
-
-![image](https://github.com/user-attachments/assets/4ccb24c1-4deb-4412-88f5-2f1fad9f16a7)
-
-
-
-
-En la carpeta de imagenes de este repositorio se incorporan _word clouds_ para diferentes paises como: US, Chile, Sud Africa y Italia.
 
 ###### Correlation Matrix
-La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si. A continuación, se detallan los paquetes necesarios a instalar y librearias a cargar para la realización de la _correlation matrix_:
+La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). A continuación, se detallan los paquetes necesarios a instalar y librearias a cargar para la realización de la _correlation matrix_:
 
 ```
 #Install corrplot
@@ -55,5 +42,9 @@ if (!require("rmcorr")) install.packages("rmcorr")
 library(corrplot)
 library(rmcorr)
 ```
+
+Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si. 
+
+![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
 
