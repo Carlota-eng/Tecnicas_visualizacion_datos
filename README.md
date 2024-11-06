@@ -37,7 +37,8 @@ De igual forma, se podría construir la misma visualización pero diferenciando 
 
 O, las palabras más mencionadas por sudafricanos:
 
-![image](https://github.com/user-attachments/assets/b129b0e5-ef47-47ea-b74d-7e38c4a07e32)
+![image](https://github.com/user-attachments/assets/63c9298b-91c5-48b9-819d-e88f89f4313d)
+
 
 En la carpeta de imagenes de este repositorio se incorporan _word clouds_ para diferentes paises como: US, Chile, Sud Africa y Italia.
 
