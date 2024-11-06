@@ -37,7 +37,8 @@ De igual forma, se podría construir la misma visualización pero diferenciando 
 
 O, las palabras más mencionadas por sudafricanos:
 
-![image](https://github.com/user-attachments/assets/e9352914-a852-413c-a4f5-3cfd8a0051ed)
+![image](https://github.com/user-attachments/assets/4ccb24c1-4deb-4412-88f5-2f1fad9f16a7)
+
 
 
 
