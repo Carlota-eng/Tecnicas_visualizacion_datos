@@ -46,4 +46,12 @@ Esta representación tiene como objetivo mostrar como los diferentes atributos q
 
 ![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
+###### Violin Plot
+Finalmente, se utiliza la base de datos _[Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/).
+
+
+
+![image](https://github.com/user-attachments/assets/51dd002a-917d-46fc-bb3e-5646a0410a2d)
+
+
 
