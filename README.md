@@ -14,9 +14,6 @@ A continuación, se muestran las visualizaciones resultantes de cada técnica. P
 #### Word Cloud
 Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_American Anxieties: Dear Abby's Questions_](https://www.kaggle.com/datasets/thedevastator/american-anxieties-dear-abby-s-questions?resource=download) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar y librearías a cargar para la realización del _word cloud_:
 
-![image](https://github.com/user-attachments/assets/3c34098f-55fa-4490-9bcc-16906df71aef)
-
-
 ```
 # Download pack
 if (!require("RColorBrewer")) install.packages("RColorBrewer")
@@ -30,7 +27,8 @@ library(htmltools)
 
 El objetivo de esta representación es mostrar las palabras más mencionadas por los americanos cuando se les pregunta por la anseidad a los largo del tiempo: _Before 2000s_ (1985 - 1999) vs _After 2000s_ (2000 - 2017).
 
-![image](https://github.com/user-attachments/assets/d2ec3e00-4642-4f22-af3c-181bd999c504)
+![image](https://github.com/user-attachments/assets/e5bf8921-9e28-4e52-9782-e025703c343c)
+
 
 ###### Conclusiones
 - _husband_, _time_ y _children_ como palabras principales predominantes en el tiempo
