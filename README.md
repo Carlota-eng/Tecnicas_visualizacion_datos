@@ -47,11 +47,12 @@ Esta representación tiene como objetivo mostrar como los diferentes atributos q
 ![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
 ###### Violin Plot
-Finalmente, se utiliza la base de datos [_Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/).
+Finalmente, se utiliza la base de datos [_Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/). El objetivo del _violin plot_ es observar las diferencias salariales entre hombres y mujeres por edad en la población de India. 
 
 
 
-![image](https://github.com/user-attachments/assets/115254b1-9b28-4af6-b98e-21537a84c444)
+![image](https://github.com/user-attachments/assets/c075ed26-9665-435e-9ff8-e21ed3639d33)
+
 
 
 
