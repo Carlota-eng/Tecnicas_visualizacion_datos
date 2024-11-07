@@ -68,9 +68,8 @@ library(car)
 library(scale)
 ```
 
+![image](https://github.com/user-attachments/assets/5d089cd7-f4e3-425b-9d07-6ff0bf9ab774)
 
-
-![image](https://github.com/user-attachments/assets/c075ed26-9665-435e-9ff8-e21ed3639d33)
 
 
 
