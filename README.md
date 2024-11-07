@@ -76,6 +76,10 @@ library(scale)
 ![image](https://github.com/user-attachments/assets/5d089cd7-f4e3-425b-9d07-6ff0bf9ab774)
 
 
+![image](https://github.com/user-attachments/assets/be2a69e3-dc2f-4a6f-bc7b-72cf79a718a8)
+
+
+
 
 
 
