@@ -23,7 +23,7 @@ devtools::install_github("lchiffon/wordcloud2")
 library(RColorBrewer)
 library(wordcloud2)
 library(htmltools)
-```
+´´´
 
 El objetivo de esta representación es mostrar las palabras más mencionadas por los americanos cuando se les pregunta por la anseidad a los largo del tiempo (des del 1985 - 2000 vs. 2000 - 2017).
 
