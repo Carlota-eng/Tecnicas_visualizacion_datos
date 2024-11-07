@@ -14,6 +14,9 @@ A continuación, se muestran las visualizaciones resultantes de cada técnica. P
 #### Word Cloud
 Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_American Anxieties: Dear Abby's Questions_](https://www.kaggle.com/datasets/thedevastator/american-anxieties-dear-abby-s-questions?resource=download) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar y librearías a cargar para la realización del _word cloud_:
 
+![image](https://github.com/user-attachments/assets/3c34098f-55fa-4490-9bcc-16906df71aef)
+
+
 ```
 # Download pack
 if (!require("RColorBrewer")) install.packages("RColorBrewer")
@@ -30,6 +33,7 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 ![image](https://github.com/user-attachments/assets/d2ec3e00-4642-4f22-af3c-181bd999c504)
 
 ###### Conclusiones
+- _husband_, _time_ y _children_ como palabras principales predominantes en el tiempo
 - 
 
 #### Correlation Matrix
