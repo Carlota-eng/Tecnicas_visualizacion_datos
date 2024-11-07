@@ -14,7 +14,7 @@ A continuación, se muestran las visualizaciones resultantes de cada técnica. P
 ##### Word Cloud
 Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_American Anxieties: Dear Abby's Questions_](https://www.kaggle.com/datasets/thedevastator/american-anxieties-dear-abby-s-questions?resource=download) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar y librearías a cargar para la realización del _word cloud_:
 
-´´´
+```
 # Download pack
 if (!require("RColorBrewer")) install.packages("RColorBrewer")
 if (!require("devtools")) install.packages("devtools")
