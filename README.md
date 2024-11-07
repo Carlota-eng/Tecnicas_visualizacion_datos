@@ -34,7 +34,7 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). A continuación, se detallan los paquetes necesarios a instalar y librearias a cargar para la realización de la _correlation matrix_:
 
 ```
-#Install corrplot
+# Download pack
 if (!require("corrplot")) install.packages("corrplot")
 if (!require("rmcorr")) install.packages("rmcorr")
 
