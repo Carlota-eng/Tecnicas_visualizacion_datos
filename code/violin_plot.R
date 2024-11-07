@@ -28,7 +28,7 @@ df <- df[!is.na(df$Age),]
 df$AgeR <- cut(
   df$Age,
   breaks = c(-Inf, 29, 40, Inf),
-  labels = c("Hasta 29 años", "De 30-40 años", "Más de 41 años"), 
+  labels = c("Since 29 years", "From 30-40 years", "More than 41 years"), 
   right = TRUE
 )
 table(df$AgeR)
