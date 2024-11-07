@@ -29,6 +29,7 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 
 ![image](https://github.com/user-attachments/assets/e5bf8921-9e28-4e52-9782-e025703c343c)
 
+![image](https://github.com/user-attachments/assets/545ba376-7f94-46b6-ac04-d0d7bba0d1e7)
 
 ###### Conclusiones
 - _husband_, _time_ y _children_ como palabras principales predominantes en el tiempo
