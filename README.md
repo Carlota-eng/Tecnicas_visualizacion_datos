@@ -11,7 +11,7 @@ Las técnicas de visualización que se trabajan en este proyecto son las siguien
   
 ## Visualizaciones
 A continuación, se muestran las visualizaciones resultantes de cada técnica. Para cada una de ellas, se adjunta en la carpeta _/code_ el código necesario para su ejecución y en la carpeta _/images_ la imagen en formato .png de la representación:
-###### Word Cloud
+##### Word Cloud
 Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_American Anxieties: Dear Abby's Questions_](https://www.kaggle.com/datasets/thedevastator/american-anxieties-dear-abby-s-questions?resource=download) disponible en [_Kaggle_](https://www.kaggle.com/). A continuación, se detallan los paquetes necesarios a instalar y librearías a cargar para la realización del _word cloud_:
 
 ```
@@ -30,7 +30,7 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 ![image](https://github.com/user-attachments/assets/d2ec3e00-4642-4f22-af3c-181bd999c504)
 
 
-###### Correlation Matrix
+##### Correlation Matrix
 La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.uci.edu/dataset/186/wine+quality) disponible en [UC Irvine Machine Learning](https://archive.ics.uci.edu/). A continuación, se detallan los paquetes necesarios a instalar y librearias a cargar para la realización de la _correlation matrix_:
 
 ```
@@ -46,7 +46,7 @@ Esta representación tiene como objetivo mostrar como los diferentes atributos q
 
 ![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
-###### Violin Plot
+##### Violin Plot
 Finalmente, se utiliza la base de datos [_Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/). El objetivo del _violin plot_ es observar las diferencias salariales entre hombres y mujeres por edad en la población de India.
 
 Paquetes necesarios para la elaboración del gráfico:
