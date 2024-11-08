@@ -1,13 +1,11 @@
 # Librerias
-library(wordcloud)
 library(wordcloud2)
 library(htmltools)
 
-df <- read.csv("C:/Utilidades Carlota/MDS/Visualizacion de datos/PEC2/anxiety.csv",
+# Cargar dataset y stopwords
+df <- read.csv("df/anxiety.csv",
                sep=",", header=TRUE)
-
-stops <- read.table("C:/Utilidades Carlota/MDS/Visualizacion de datos/PEC2/stop_words_2.txt", header=F, encoding = "UTF-8")
-
+stops <- read.table("df/stop_words.txt", header=F, encoding = "UTF-8")
 
 # Limpiar df
 df <- df[, c(1,2,8)]
@@ -18,10 +16,10 @@ words <- df$question_only
 words <- gsub('[[:punct:] ]+',' ', words) # Eliminar puntuaciones (i.e comas, puntos, acentos,...)
 words <- gsub("[[:digit:]]+", "", words) # Eliminar números
 words <- tolower(words) # Todas las palabras en minúsculas
-words <- strsplit(words, ' ') # separar palabras
+words <- strsplit(words, ' ') # Separar palabras
 
-a <- sapply(words, length) # cuento las palabras que cada reseña tiene
-words2 <- rep(NA, sum(a)) # reservo espacio para un vector que contendra todas las palabras
+a <- sapply(words, length) # Contar las palabras que tiene cada reseña
+words2 <- rep(NA, sum(a)) # Reservar espacio para un vector que contendra todas las palabras
 year <- words2
 inicio <- 1
 posicion<-1
@@ -34,21 +32,19 @@ for(i in words){
 }
 
 words <- words2
-words <- data.frame("palabras"=words, "year"=year,"largo"=nchar(words)) #lo dejo en data.frame
+words <- data.frame("palabras"=words, "year"=year,"largo"=nchar(words))
 rm(words2, a, inicio, final, i, year, posicion)
 
 filtro <-  words$palabras%in%stops$V1 # Eliminar palabras que aparecen en el stop list
 words <- words[!filtro, ]
 words <- words[words$largo>2, ] # Eliminar palabras con menos de 2 letras
-words_noyear <- words[words != "year", ] # Eliminar palabra en concreto "Wine"
-words_noyear <- words_noyear[words_noyear != "years", ] # Eliminar palabra en concreto "Wine"
 
-# 1985 - 2000
+# Separar df total en: df de años 1985 - 1999
 pre_2000 <- table(words_noyear$palabras[words_noyear$year < 2000])
 pre_2000 <- data.frame(pre_2000)
 pre_2000 <- pre_2000 [ order(pre_2000$Freq, decreasing = T), ]
 
-
+# Separar df total en: df de años 2000 -2017
 post_2000 <- table(words_noyear$palabras[words_noyear$year > 1999])
 post_2000 <- data.frame(post_2000)
 post_2000 <- post_2000 [ order(post_2000$Freq, decreasing = T), ]
@@ -59,6 +55,7 @@ plot_pre2000 <- wordcloud2(data=pre_2000, size = 0.6, color = 'random-dark',
 plot_post200 <- wordcloud2(data=post_2000, size = 0.6, color = 'random-dark',
                            backgroundColor = 'white', ellipticity = TRUE)
 
+# Crear elemento HTML e incrustrar los wordclouds
 doc <- tagList(
   # Título general centrado
   tags$p(
@@ -89,7 +86,7 @@ doc <- tagList(
       style = "
         display: flex; 
         flex-direction: column;
-        font-size: 20px;
+        font-size: 24px;
         align-items: center;
         margin: 0;
       ",
@@ -105,9 +102,9 @@ doc <- tagList(
       style = "
         display: flex; 
         flex-direction: column;
-        font-size: 20px;
+        font-size: 24px;
         align-items: center;
-        margin: 0; /* Eliminar márgenes adicionales */
+        margin: 0;
       ",
       tags$p(
         style = "margin-bottom: 5px;",
