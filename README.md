@@ -32,7 +32,8 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 
 ![image](https://github.com/user-attachments/assets/56d6c216-e7e6-4b24-9eba-1af6f656ee1c)
 
-![image](https://github.com/user-attachments/assets/8cc72de0-2f08-4580-8b6e-ff1ebb740d6d)
+![image](https://github.com/user-attachments/assets/9a13847b-231d-488c-8ec7-0acea1d2e532)
+
 
 
 
