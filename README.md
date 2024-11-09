@@ -27,6 +27,10 @@ library(htmltools)
 
 El objetivo de esta representación es mostrar las palabras más mencionadas por los americanos cuando se les pregunta por la anseidad a los largo del tiempo: _Before 2000s_ (1985 - 1999) vs _After 2000s_ (2000 - 2017).
 
+![Captura de Pantalla 2024-11-09 a las 10 08 14](https://github.com/user-attachments/assets/5393ee10-b7ce-4d54-859f-1433eabde9d8)
+
+
+
 ![image](https://github.com/user-attachments/assets/27568bfc-3e9d-4405-83ee-cd281f697b05)
 
 
