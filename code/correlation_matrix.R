@@ -6,21 +6,9 @@ if (!require("rmcorr")) install.packages("rmcorr")
 library(rmcorr)
 
 # Cargar df
-df <- read.csv("C:/Utilidades Carlota/MDS/Visualizacion de datos/PEC2/winequality-red.csv",
-               sep=";", header=TRUE)
+df <- read.csv("df/winequality-red.csv", sep=";", header=TRUE)
 head(df)
 names(df)
-
-# opcion 2
-corrplot.mixed(cor(df, use = "complete.obs"),
-               lower = "ellipse", 
-               upper = "number",
-               tl.col = "black",
-               title="Correlaciones Red-wine quality")
-
-# Opcion 1
-cor_matrix <- cor(df[, -ncol(df)], use = "complete.obs")
-corrplot(cor_matrix, method = "circle")
 
 # Visualización de la matriz de correlación sin el título
 corrplot(cor_matrix, 
@@ -36,6 +24,4 @@ corrplot(cor_matrix,
          diag = FALSE)
 
 # Título en la parte superior con mayor separación
-mtext("Different wine's attribute correlations", side = 1, line = 0.5, cex = 1.5, font = 2)
-
-
+mtext("Different wine's attribute correlations", side = 3, line = 2, cex = 1.5, font = 2)
