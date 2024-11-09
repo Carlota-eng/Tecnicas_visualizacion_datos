@@ -55,11 +55,15 @@ Esta representación tiene como objetivo mostrar como los diferentes atributos q
 ![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
 ###### Conclusiones
-- Mayores correlaciones negativas:
+- Principales correlaciones negativas:
   - _pH_ - _fixed.acidity_
   - _citric.acid_ - _volatile.acidity_
   - _pH_ - _citric.acid_
- 
+- Principales correlaciones positivas:
+  - _citric.acid_ - _fixed.acidity_
+  - _density_ - _fixed.acidity_
+  - _total.sulfur.dioxide_ - _free.sulfur.dioxide_
+- El principal elemento correlacionado negativamente con el _alcohol_ del vino es _density_, es decir, a mayor _density_ menor cantidad de _alcohol_
 
 #### Violin Plot
 Finalmente, se utiliza la base de datos [_Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/). El objetivo del _violin plot_ es observar las diferencias salariales entre hombres y mujeres por edad en la población de India.
