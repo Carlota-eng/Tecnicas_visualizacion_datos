@@ -2,14 +2,13 @@
 if (!require("corrplot")) install.packages("corrplot")
 require(corrplot)
 
-if (!require("rmcorr")) install.packages("rmcorr")
-library(rmcorr)
-
 # Cargar df
 df <- read.csv("df/winequality-red.csv", sep=";", header=TRUE)
 head(df)
 names(df)
 
+# Crear matriz de correlación
+cor_matrix <- cor(df, use = "complete.obs")
 # Visualización de la matriz de correlación sin el título
 corrplot(cor_matrix, 
          method = "color",           
