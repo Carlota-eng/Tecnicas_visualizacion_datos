@@ -44,10 +44,8 @@ La base de datos utilizada en este caso es [_Wine Quality_](https://archive.ics.
 ```
 # Download pack
 if (!require("corrplot")) install.packages("corrplot")
-if (!require("rmcorr")) install.packages("rmcorr")
 
 library(corrplot)
-library(rmcorr)
 ```
 
 Esta representación tiene como objetivo mostrar como los diferentes atributos que componen un vino estan correlacionados entre si. 
