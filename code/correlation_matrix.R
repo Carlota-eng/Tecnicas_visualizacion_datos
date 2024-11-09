@@ -22,6 +22,4 @@ corrplot(cor_matrix,
          cl.pos = "b",                
          cl.length = 5,               
          diag = FALSE)
-
-# Título en la parte superior con mayor separación
 mtext("Different wine's attribute correlations", side = 3, line = 2, cex = 1.5, font = 2)
