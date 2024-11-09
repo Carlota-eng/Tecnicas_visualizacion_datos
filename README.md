@@ -87,10 +87,12 @@ library(car)
 library(scale)
 ```
 
-
 ![image](https://github.com/user-attachments/assets/be2a69e3-dc2f-4a6f-bc7b-72cf79a718a8)
 
-
+###### Conclusiones
+- Distribución de sueldos por edad y género bastante similar para los 3 rangos de edades
+- Las medias salariales por género bastante similar en cada grupo de edad, siendo en los 3 casos superior en el caso de los hombres ligeramente que las mujeres
+- A mayor edad, mayor salario (independientemente del género)
 
 
 
