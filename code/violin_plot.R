@@ -14,8 +14,7 @@ library(car)
 library(scale)
 
 # Cargar df
-df <- read.csv("C:/Utilidades Carlota/MDS/Visualizacion de datos/PEC2/salary.csv",
-               sep=",", header=TRUE)
+df <- read.csv("df/salary.csv", sep=",", header=TRUE)
 
 # Trabjar datos
 str(df)
