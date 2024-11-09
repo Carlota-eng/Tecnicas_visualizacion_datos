@@ -72,19 +72,13 @@ Paquetes necesarios para la elaboración del gráfico:
 
 ```
 # Download pack
-if (!require("viridis")) install.packages("viridis")
-devtools::install_github("hrbrmstr/hrbrthemes")
 if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("forcats")) install.packages("forcats")
+if (!require("dplyr")) install.packages("dplyr")
 if (!require("scale")) install.packages("scale")
 
 library(ggplot2)
 library(dplyr)
-library(forcats)
-library(hrbrthemes)
-library(viridis)
-library(car)
-library(scale)
+library(scales)
 ```
 
 ![image](https://github.com/user-attachments/assets/be2a69e3-dc2f-4a6f-bc7b-72cf79a718a8)
