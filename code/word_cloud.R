@@ -63,7 +63,7 @@ doc <- tagList(
         color: black;
         font-size: 24px;
         text-align: center;
-        margin: 0 0 20px 0;
+        margin: 0 0 px 0;
         padding-bottom: 10px;
         border-bottom: 2px solid #000;
         width: 100%;
@@ -89,6 +89,7 @@ doc <- tagList(
         font-size: 24px;
         align-items: center;
         margin: 0;
+        font-weight: bold;
       ",
       tags$p(
         style = "margin-bottom: 5px;",
@@ -105,6 +106,7 @@ doc <- tagList(
         font-size: 24px;
         align-items: center;
         margin: 0;
+        font-weight: bold;
       ",
       tags$p(
         style = "margin-bottom: 5px;",
