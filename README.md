@@ -30,6 +30,7 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 ![Captura de Pantalla 2024-11-09 a las 10 08 14](https://github.com/user-attachments/assets/5393ee10-b7ce-4d54-859f-1433eabde9d8)
 
 
+![Captura de Pantalla 2024-11-09 a las 10 10 29](https://github.com/user-attachments/assets/6192866b-56ac-4dc7-bba9-f4e0665ef9c4)
 
 ![image](https://github.com/user-attachments/assets/27568bfc-3e9d-4405-83ee-cd281f697b05)
 
