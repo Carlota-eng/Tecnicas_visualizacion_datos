@@ -54,6 +54,13 @@ Esta representación tiene como objetivo mostrar como los diferentes atributos q
 
 ![image](https://github.com/user-attachments/assets/0382eeca-cfaa-4022-a11e-c2524adaf69c)
 
+###### Conclusiones
+- Mayores correlaciones negativas:
+  - _pH_ - _fixed.acidity_
+  - _citric.acid_ - _volatile.acidity_
+  - _pH_ - _citric.acid_
+ 
+
 #### Violin Plot
 Finalmente, se utiliza la base de datos [_Salary_Data_](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data) de [_Kaggle_](https://www.kaggle.com/). El objetivo del _violin plot_ es observar las diferencias salariales entre hombres y mujeres por edad en la población de India.
 
