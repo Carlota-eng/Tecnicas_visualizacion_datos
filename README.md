@@ -33,9 +33,8 @@ El objetivo de esta representación es mostrar las palabras más mencionadas por
 ![Captura de Pantalla 2024-11-09 a las 10 22 31](https://github.com/user-attachments/assets/6ab61918-649d-4e31-9dbc-bf06eb6f10b5)
 
 ###### Conclusiones
-- _husband_ y _time_ como palabras principales predominantes en el tiempo
+- _husband_, _time_ o _mother_ como palabras principales predominantes en el tiempo
 - Principales preocupaciones _Before 2000s_: _husband_, _people_, _time_, _mother_, _children_, _married_, _man_, _family_, _love_, _wife_, _wedding_, _woman_, _day_, _good_, _problem_, _parents_, _daughter_, _child_, _son_ o _friends_
-  
 - Principales preocupaciones _After 2000s_: _husband_, _time_, _family_, _mother_, _feel_, _married_, _children_, _friends_, _people_, _love_, _daughter_, _wife_,  _parents_, _life_, _son_, _friend_, _problem_, _mom_, _man_, _day_, _work_ o _relationship_
 
   
