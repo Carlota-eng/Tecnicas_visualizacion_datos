@@ -1,17 +1,11 @@
-# Librerias
-if (!require("viridis")) install.packages("viridis")
-devtools::install_github("hrbrmstr/hrbrthemes")
+## Librerías
 if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("forcats")) install.packages("forcats")
+if (!require("dplyr")) install.packages("dplyr")
 if (!require("scale")) install.packages("scale")
 
 library(ggplot2)
 library(dplyr)
-library(forcats)
-library(hrbrthemes)
-library(viridis)
-library(car)
-library(scale)
+library(scales)
 
 # Cargar df
 df <- read.csv("df/salary.csv", sep=",", header=TRUE)
