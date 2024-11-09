@@ -16,11 +16,8 @@ Para la elaboración del _Word cloud_ se ha utilizado la base de datos [_America
 
 ```
 # Download pack
-if (!require("RColorBrewer")) install.packages("RColorBrewer")
-if (!require("devtools")) install.packages("devtools")
 devtools::install_github("lchiffon/wordcloud2")
 
-library(RColorBrewer)
 library(wordcloud2)
 library(htmltools)
 ```
